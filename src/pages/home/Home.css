@@ -1,0 +1,128 @@
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #096dd9;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.header {
+  padding: 16px 32px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_s {
+  padding: 18px 16px;
+  background: #fafafa;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_s div:first-child,
+.sider {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.header_s div:nth-child(2) {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1890ff;
+}
+
+.sider {
+  padding: 24px;
+  text-align: start;
+  position: relative;
+  justify-content: start;
+}
+
+.sider_f {
+  display: flex;
+  align-items: center;
+}
+
+.sider_s {
+  position: absolute;
+  bottom: 24px;
+}
+
+.set {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #d9d9d9;
+  margin-bottom: 16px;
+}
+
+.status {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+
+.status li {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.status li::before , .s::before  {
+  content: "\2022";
+  font-weight: bold;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.status li:first-child::before, .created::before {
+  color: #1890ff;
+}
+
+.status li:nth-child(2)::before, .completed::before {
+  color: #73d13d;
+}
+
+.status li:nth-child(3)::before, .progress::before {
+  color: #faad14;
+}
+.status li:nth-child(4)::before , .rejected::before {
+  color: #ff4d4f;
+}
+.num {
+  font-size: 24px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-left: 14px;
+  margin-top: 6px;
+}
+
+.disabled-link {
+  pointer-events: none;
+  color: rgba(0, 0, 0, 0.45);
+}
+
+.table {
+  padding: 31px 32px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px 8px 0px 0px;
+}
